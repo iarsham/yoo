@@ -8,13 +8,14 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "yoo",
-	Short: "A brief description of your application",
-	Long: `A longer description that spans multiple lines and likely contains
-examples and usage of using your application. For example:
-
-Cobra is a CLI library for Go that empowers applications.
-This application is a tool to generate the needed files
-to quickly create a Cobra application.`,
+	Short: "yoo is a OpenAI CLI tool",
+	Long: `  __  ______  ____ 
+  / / / / __ \/ __ \
+ / /_/ / /_/ / /_/ /
+ \__, /\____/\____/ 		
+/____/
+is a OpenAI CLI tool that allows you to interact with OpenAI's API.
+yoo is easy and fast!🚀`,
 }
 
 func Execute() {
